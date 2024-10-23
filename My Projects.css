@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(255, 21, 21);
+}
+header{
+    background-image: url('My Projects.png');
+    background-color:black;
+    background-attachment: fixed; 
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(255, 21, 21);
+}
+.redTile{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+h3{
+    font-size: 6vw;
+}
+p{
+    font-size: 5vw;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Montserrat;
+}
+button{
+    margin: 1vh;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 1px rgb(0, 0, 0);
+    transition: all .2s ease-in-out;
+    color:rgb(255, 21, 21);
+    height: 7vh;
+    width:15vw;
+    font-size: 3vw;
+}
+button:hover{
+    background-color: rgb(255, 21, 21);
+    color:black;
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.coursetile{
+    color: rgb(255,21,21);
+    text-align: center;
+    margin-top: auto;
+    background-color: rgb(0,0,0);
+    width:30vw;
+    height: 85vh;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 1px rgb(0, 0, 0);
+}
+.coursetile:hover{
+    background-color: rgb(255,21,21);
+    transform: scale(1.05);
+    cursor:pointer;
+    color: black;
+}
+.homeButton{
+    color: rgb(255,21,21);
+    text-align: center;
+    margin-top: auto;
+    background-color: rgb(0,0,0);
+    width:100vw;
+    height: 15vh;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 1px rgb(0, 0, 0);
+}
+.homeButton:hover{
+    background-color: rgb(255,21,21);
+    transform: scale(1.05);
+    cursor:pointer;
+    color: black;
+}
